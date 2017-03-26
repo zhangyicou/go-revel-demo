@@ -3,24 +3,24 @@
 基于Go语言和Revel框架的内容管理系统
 
 ##编译安装说明：
-执行winstall.bat 下载依赖库
+####下载依赖库
+    执行winstall.bat 
+####进行编译
+    执行wbuild.bat 
 
-
-
-修改数据库配置
+####修改数据库配置
 	
 	conf/databases.conf
 
-导入MySQL
+####导入MySQL
 
-	doc目录下gocms.sql
+	doc目录下go-revel-demo.sql
 
-运行
+####运行
 	
-	$ nohup revel run admin &
-	设为后台运行
+	执行wrun.bat 
 
-访问： 
+####访问： 
 
 http://localhost:9001
 
