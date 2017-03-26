@@ -1,35 +1,15 @@
-#GoCMS 
+#go-revel-demo
 
 基于Go语言和Revel框架的内容管理系统
 
-
-演示地址：
-[http://admin.6574.com.cn/](http://admin.6574.com.cn/)
-
-GoCMS QQ交流群：
-[<a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=3421374909556d550942819ac01a48339fc70130ebfea330015dee89abb540c2"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="Revel&nbsp;框架交流" title="Revel&nbsp;框架交流"></a>](345304040)
-
 ##编译安装说明：
+执行winstall.bat 下载依赖库
 
-设置GOPATH(安装目录)
 
-	$ export GOPATH=/path/src/admin
-	$ cd /path/src/admin
-
-注：把下载的代码复制到src/admin目录下
-
-获取源代码，下载完成后会自动编译为GoCMS可执行文件
-	
-	$ go get github.com/go-xorm/xorm
-	$ go get github.com/revel/revel
-	$ go get github.com/cbonello/revel-csrf
-	$ go get github.com/PuerkitoBio/goquery
-	$ go get github.com/shirou/gopsutil
-	$ go get github.com/zzdboy/GoCMS
 
 修改数据库配置
 	
-	admin/conf/databases.conf
+	conf/databases.conf
 
 导入MySQL
 
